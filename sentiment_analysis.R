@@ -76,7 +76,7 @@ confTable
 #run a binomial test for confidence interval of results
 binom.test(confTable[1,1] + confTable[2,2], nrow(results), p=0.5)
 
-source("polarityFuncs.R")
+source("~/Documents/GitHub/polarityFuncs.R")
 
 #  chi sqr polarity test of the confusion table
 chiSqrPV = calcChiSqrPV(as.vector(confTable))
